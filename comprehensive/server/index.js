@@ -13,7 +13,7 @@ app.get('/*', function (req, res) {
   res.sendFile(path.resolve(buildPath, 'index.html'));
 });
 
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8082;
 
 app.listen(PORT, () => {
   console.log(`server has started on port ${PORT}`);

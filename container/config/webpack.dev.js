@@ -17,7 +17,8 @@ const devConfig = {
         new ModuleFederationPlugin({
             name: 'container',
             remotes: {
-                marketing: 'marketing@http://localhost:8081/marketing.js'
+                marketing: 'marketing@http://localhost:8081/marketing.js',
+                comprehensive: 'comprehensive@http://localhost:8082/comprehensive.js'
             },
             shared: packageJson.dependencies // or ['react', 'react-dom']
         })

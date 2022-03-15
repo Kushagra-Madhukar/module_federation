@@ -4,10 +4,10 @@ const webpack = require('webpack');
 const devConfig = {
     mode: 'development',
     output: {
-        publicPath: 'http://localhost:8081/'
+        publicPath: 'http://localhost:8082/'
     },
     devServer: {
-        port: 8081,
+        port: 8082,
         hot: true,
         open: false,
         historyApiFallback: {
