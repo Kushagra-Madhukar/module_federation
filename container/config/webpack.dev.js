@@ -18,7 +18,8 @@ const devConfig = {
             name: 'container',
             remotes: {
                 marketing: 'marketing@http://localhost:8081/marketing.js',
-                comprehensive: 'comprehensive@http://localhost:8082/comprehensive.js'
+                comprehensive: 'comprehensive@http://localhost:8082/comprehensive.js',
+                quiz: 'quiz@http://localhost:8083/quiz.js'
             },
             shared: packageJson.dependencies // or ['react', 'react-dom']
         })
